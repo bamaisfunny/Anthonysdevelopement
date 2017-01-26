@@ -29,7 +29,7 @@ namespace Week1_prg
             }
             set
             {
-                m_age = Age;
+                m_age = value;
             }
         }
 
@@ -41,7 +41,7 @@ namespace Week1_prg
             }
             set
             {
-                m_firstName = FirstName;
+                m_firstName = value;
             }
         }
 
@@ -53,7 +53,7 @@ namespace Week1_prg
             }
             set
             {
-                m_hairColor = HairColor;
+                m_hairColor = value;
             }
         }
 
@@ -65,7 +65,7 @@ namespace Week1_prg
             }
             set
             {
-                m_lastName = LastName;
+                m_lastName = value;
             }
         }
 

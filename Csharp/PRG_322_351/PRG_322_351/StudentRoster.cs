@@ -5,20 +5,12 @@ using System.Text;
 
 namespace Week1_prg
 {
-    public class StudentRoster
+    public class StudentRoster : Dictionary<int, Student>
     {
-        public Dictionary<int, Student> studentDictionary = new Dictionary<int, Student>();
-        Student s;
 
-        public StudentRoster()
+        public void Add(int key, Student value )
         {
-            studentDictionary.Add(s.Age, s);
-            
-        }
-
-        public void Add()
-        {
-            s = new Student("Anthony", 28, "Blonde", "Searles");
+            base.Add(key, value);
         }
     }
 }

@@ -10,11 +10,18 @@ namespace Week1_prg
     {
         static void Main(string[] args)
         {
-            StudentRoster s = new StudentRoster();
-            foreach (KeyValuePair<int, Student> kvp in s.studentDictionary)
+            Student s = new Student("Anthony", 28, "Blonde", "Searles");
+            StudentRoster x = new StudentRoster();
+            s.Id = 6;
+            x.Add(s.Id, s);
+            foreach(KeyValuePair<int , Student > kvp in x)
             {
-                kvp.Value.Debug();
+                Console.WriteLine(s.FirstName + " was added to the roster.");
+                Console.WriteLine("These are the students on the roster: " + kvp.Value.FirstName + " and their id is " + kvp.Value.Id);
+                Console.WriteLine("This is " + s.FirstName + "'s profile info: " + s.Debug());
+
             }
+            Console.ReadKey();
         }
     }
 }

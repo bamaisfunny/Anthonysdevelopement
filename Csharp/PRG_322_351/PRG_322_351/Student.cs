@@ -31,7 +31,7 @@ namespace Week1_prg
             }
             set
             {
-                email = Email;
+                email = value;
             }
         }
 
@@ -43,7 +43,7 @@ namespace Week1_prg
             }
             set
             {
-                id = Id;
+                id = value;
             }
         }
 
@@ -55,7 +55,7 @@ namespace Week1_prg
             }
             set
             {
-                phoneNumber = PhoneNumber;
+                phoneNumber = value;
             }
         }
 
@@ -65,10 +65,10 @@ namespace Week1_prg
 
         }
 
-        public void Debug()
+        public string Debug()
         {
-            Console.WriteLine(this.m_firstName, this.m_lastName, this.m_age, this.m_hairColor);
-
+            string x = (this.m_firstName + " " + this.m_lastName + " " + this.m_age.ToString() + " " + this.m_hairColor);
+            return x;
         }
     }
 }
