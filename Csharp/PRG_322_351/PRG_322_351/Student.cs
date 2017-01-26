@@ -11,7 +11,6 @@ namespace Week1_prg
         private int id;
         public int idCount = 0;
         private string phoneNumber;
-        private int printer;
 
         public Student(string firstName, int age, string hairColor, string lastName)
          :base(firstName, age, hairColor, lastName)
@@ -65,10 +64,11 @@ namespace Week1_prg
 
         }
 
-        public string Debug()
+        public void Debug()
         {
             string x = (this.m_firstName + " " + this.m_lastName + " " + this.m_age.ToString() + " " + this.m_hairColor);
-            return x;
+            stuPrinter.Print(x);
         }
+        public IPrinter stuPrinter;
     }
 }

@@ -7,9 +7,9 @@ namespace Week1_prg
 {
     public class ConsolePrinter : IPrinter
     {
-        public void Print()
+        public void Print(string msg)
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine(msg);
         }
     }
 }

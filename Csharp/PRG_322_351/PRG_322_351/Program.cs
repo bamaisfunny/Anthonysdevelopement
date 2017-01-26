@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Week1_prg
 {
@@ -18,7 +19,9 @@ namespace Week1_prg
             {
                 Console.WriteLine(s.FirstName + " was added to the roster.");
                 Console.WriteLine("These are the students on the roster: " + kvp.Value.FirstName + " and their id is " + kvp.Value.Id);
-                Console.WriteLine("This is " + s.FirstName + "'s profile info: " + s.Debug());
+                s.stuPrinter = new GUIPrinter();
+                s.Debug();
+                
 
             }
             Console.ReadKey();

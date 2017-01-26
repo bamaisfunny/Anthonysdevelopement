@@ -7,6 +7,6 @@ namespace Week1_prg
 {
     public interface IDebug
     {
-        string Debug();
+        void Debug();
     }
 }

@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
 
 namespace Week1_prg
 {
-    public class GuiPrinter : IPrinter
+    public class GUIPrinter : IPrinter
     {
-        public void Print()
+        public  void Print(string msg)
         {
-            throw new System.NotImplementedException();
+            MessageBox.Show(msg);
         }
     }
 }
