@@ -1,0 +1,6 @@
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\unitConverter\bin\Debug\unitConverter.exe.config
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\unitConverter\bin\Debug\unitConverter.exe
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\unitConverter\bin\Debug\unitConverter.pdb
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\unitConverter\obj\Debug\unitConverter.csprojResolveAssemblyReference.cache
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\unitConverter\obj\Debug\unitConverter.exe
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\unitConverter\obj\Debug\unitConverter.pdb

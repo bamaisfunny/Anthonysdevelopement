@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1_prg", "PRG_322_351\Week1_prg.csproj", "{7C4315CE-0550-4424-97F3-D52B66668748}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unitConverter", "unitConverter\unitConverter.csproj", "{C4F07EB1-56DC-4A0D-B916-297228A78FAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{7C4315CE-0550-4424-97F3-D52B66668748}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C4315CE-0550-4424-97F3-D52B66668748}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C4315CE-0550-4424-97F3-D52B66668748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F07EB1-56DC-4A0D-B916-297228A78FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F07EB1-56DC-4A0D-B916-297228A78FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F07EB1-56DC-4A0D-B916-297228A78FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F07EB1-56DC-4A0D-B916-297228A78FAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
