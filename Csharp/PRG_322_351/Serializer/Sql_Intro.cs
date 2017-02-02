@@ -28,7 +28,15 @@ namespace Serializer
             string query = "select * from Students";
             MySqlCommand cmd = new MySqlCommand(query, connection);
             MySqlDataReader Reader = cmd.ExecuteReader();
-            int Attribute_Count = Reader.
+            int Attribute_Count = Reader.FieldCount;
+            while(Reader.Read())
+            {
+                String row = "";
+                for (int i = 0; i < Attribute_Count; i++)
+                    row += Reader.GetString(i) + " - ";
+                Console.WriteLine(row);
+            }
+            connection.Close();
         }
     }
 }
