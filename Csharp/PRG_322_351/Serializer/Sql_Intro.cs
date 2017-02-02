@@ -11,12 +11,14 @@ namespace Serializer
 {
     public class Sql_Intro
     {
+        public static MySqlConnection connection;
         public static void TestMethod()
         {
             MySqlConnection connection = new MySqlConnection();
             string myConnectionString = "";
             string database = "PRG_321";
             myConnectionString = "server=127.0.0.1;uid=root;" + "database=" + database;
+            connection.ConnectionString = myConnectionString;
             connection.Open();
             if (connection.State != System.Data.ConnectionState.Open)
             {
@@ -38,9 +40,20 @@ namespace Serializer
             }
             connection.Close();
         }
-        public static void Create( String query)
+        public static MySqlDataReader RunQueryReturnReader( String query)
         {
-            return;
+            MySqlCommand cmd = new MySqlCommand(query, connection);
+            MySqlDataReader Reader = cmd.ExecuteReader();
+            return Reader;
+        }
+        public static void CreateDatabase(String db_name, String server, String user = "root")
+        {
+            if (connection.State == System.Data.ConnectionState.Open)
+            {
+                connection.Close();
+            }
+            String CnxString = "server=" + server + "; uid=" + user + "database=" + db_name;
+            connection.ConnectionString = CnxString;
         }
     }
 }
