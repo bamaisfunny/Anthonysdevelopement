@@ -38,5 +38,9 @@ namespace Serializer
             }
             connection.Close();
         }
+        public static void Create( String query)
+        {
+            return;
+        }
     }
 }
