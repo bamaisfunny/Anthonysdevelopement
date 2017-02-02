@@ -1,0 +1,6 @@
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\Serializer\bin\Debug\Serializer.exe.config
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\Serializer\bin\Debug\Serializer.exe
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\Serializer\bin\Debug\Serializer.pdb
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\Serializer\obj\Debug\Serializer.csprojResolveAssemblyReference.cache
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\Serializer\obj\Debug\Serializer.exe
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\Serializer\obj\Debug\Serializer.pdb

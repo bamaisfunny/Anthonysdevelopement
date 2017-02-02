@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1_prg", "PRG_322_351\Week1_prg.csproj", "{7C4315CE-0550-4424-97F3-D52B66668748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serializer", "Serializer\Serializer.csproj", "{7B5AF00A-20FA-4017-805B-8F862B641456}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,10 @@ Global
 		{7C4315CE-0550-4424-97F3-D52B66668748}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C4315CE-0550-4424-97F3-D52B66668748}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C4315CE-0550-4424-97F3-D52B66668748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5AF00A-20FA-4017-805B-8F862B641456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5AF00A-20FA-4017-805B-8F862B641456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5AF00A-20FA-4017-805B-8F862B641456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5AF00A-20FA-4017-805B-8F862B641456}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
