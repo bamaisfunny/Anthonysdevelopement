@@ -16,10 +16,10 @@ namespace Week1_prg
         public Student(string firstName, int age, string hairColor, string lastName)
          :base(firstName, age, hairColor, lastName)
         {
-            this.m_firstName = firstName;
-            this.m_lastName = lastName;
-            this.m_age = age;
-            this.m_hairColor = hairColor;
+            //m_firstName = firstName;
+            //m_lastName = lastName;
+            //this.m_age = age;
+            //this.m_hairColor = hairColor;
             idCount++;
         }
 

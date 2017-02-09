@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using MySql;
 using MySql.Data;
 using MySql.Data.MySqlClient;
+using Week1_prg;
 
 namespace Serializer
 {
@@ -13,16 +14,12 @@ namespace Serializer
     {
         static void Main(string[] args)
         {
-            System.IO.StreamWriter tw = new System.IO.StreamWriter("C:\\Users\\CCSDUser\\Documents\\PracticeFileWriting\\Example.txt"); 
-            tw.WriteLine("Age = " + 28);
-            tw.Close();
-
-            System.IO.StreamReader tr = new System.IO.StreamReader("C:\\Users\\CCSDUser\\Documents\\PracticeFileWriting\\Example.txt");
-            String line_read = tr.ReadLine();
-            string[] age_seperator = { "Age = " };
-            string[] value_extracted = line_read.Split(age_seperator, StringSplitOptions.RemoveEmptyEntries);
-            int age = Convert.ToInt32(value_extracted[0]);
-            Console.WriteLine("Age (read back = " + age);
+            Student s = new Student("Julien", 25, "Black", "Esposito");
+            textIO t = new textIO();
+            Serialize x = new Serialize();
+            t.writeStudentInfo(s);
+            t.writeInfo();
+            x.writeStudentInfo(s);
             Console.ReadKey();
         }
       

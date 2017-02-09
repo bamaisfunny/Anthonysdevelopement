@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1_prg", "PRG_322_351\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serializer", "Serializer\Serializer.csproj", "{7B5AF00A-20FA-4017-805B-8F862B641456}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCSD_Canvas_Lib", "CCSD_Canvas_Lib\CCSD_Canvas_Lib.csproj", "{3F15B6AC-3413-4651-B5DE-3B971B81D836}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP_App", "ASP_App\ASP_App.csproj", "{459363A1-CDB8-4E92-B95C-DA26BD72F513}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7B5AF00A-20FA-4017-805B-8F862B641456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B5AF00A-20FA-4017-805B-8F862B641456}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B5AF00A-20FA-4017-805B-8F862B641456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F15B6AC-3413-4651-B5DE-3B971B81D836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F15B6AC-3413-4651-B5DE-3B971B81D836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F15B6AC-3413-4651-B5DE-3B971B81D836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F15B6AC-3413-4651-B5DE-3B971B81D836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{459363A1-CDB8-4E92-B95C-DA26BD72F513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{459363A1-CDB8-4E92-B95C-DA26BD72F513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{459363A1-CDB8-4E92-B95C-DA26BD72F513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{459363A1-CDB8-4E92-B95C-DA26BD72F513}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

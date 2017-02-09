@@ -7,3 +7,6 @@ C:\Users\CCSDUser\Desktop\PRG 205\PRG_322_351\PRG_322_351\obj\Debug\PRG_322_351.
 C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\PRG_322_351\bin\Debug\PRG_322_351.exe.config
 C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\PRG_322_351\obj\Debug\PRG_322_351.exe
 C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\PRG_322_351\obj\Debug\PRG_322_351.pdb
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\PRG_322_351\bin\Debug\PRG_322_351.exe
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\PRG_322_351\bin\Debug\PRG_322_351.pdb
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\PRG_322_351\obj\Debug\Week1_prg.csprojResolveAssemblyReference.cache

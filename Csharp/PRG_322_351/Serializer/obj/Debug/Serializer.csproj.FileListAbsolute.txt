@@ -4,3 +4,6 @@ C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\Seria
 C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\Serializer\obj\Debug\Serializer.csprojResolveAssemblyReference.cache
 C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\Serializer\obj\Debug\Serializer.exe
 C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\Serializer\obj\Debug\Serializer.pdb
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\Serializer\bin\Debug\CCSD_Canvas_Lib.dll
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\Serializer\bin\Debug\MySql.Data.dll
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\Serializer\bin\Debug\CCSD_Canvas_Lib.pdb
