@@ -59,6 +59,7 @@ namespace ASP_App
                 curField += reader.GetString("age");
                 curField += reader.GetString("haircolor");
                 curField += reader.GetString("lastname");
+
             }
 
             reader.Close();
