@@ -14,11 +14,10 @@ namespace Serializer
     {
         static void Main(string[] args)
         {
-            Student s = new Student("Julien", 25, "Black", "Esposito");
+            Student s = new Student("Bert", 25, "Black", "Esposito");
             textIO t = new textIO();
             Serialize x = new Serialize();
-            t.writeStudentInfo(s);
-            t.writeInfo();
+            t.writeInfo(s);
             x.writeStudentInfo(s);
             Console.ReadKey();
         }

@@ -1,0 +1,12 @@
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\ccsdLib\obj\Debug\ccsdLib.csprojResolveAssemblyReference.cache
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\ccsdLib\bin\Debug\ccsdLib.dll
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\ccsdLib\bin\Debug\ccsdLib.pdb
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\ccsdLib\obj\Debug\ccsdLib.dll
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\ccsdLib\obj\Debug\ccsdLib.pdb
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\ccsdLib\bin\Debug\ccsdLib.dll.config
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\ccsdLib\bin\Debug\EntityFramework.dll
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\ccsdLib\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\ccsdLib\bin\Debug\MySql.Data.dll
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\ccsdLib\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\ccsdLib\bin\Debug\EntityFramework.xml
+C:\Users\CCSDUser\Documents\GitHub\Anthonysdevelopement\Csharp\PRG_322_351\ccsdLib\bin\Debug\EntityFramework.SqlServer.xml

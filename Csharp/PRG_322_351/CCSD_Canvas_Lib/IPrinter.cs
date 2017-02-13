@@ -7,6 +7,6 @@ namespace Week1_prg
 {
     public interface IPrinter
     {
-        void Print();
+        void Print(Student s);
     }
 }

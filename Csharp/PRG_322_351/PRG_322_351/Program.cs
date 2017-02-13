@@ -10,11 +10,13 @@ namespace Week1_prg
     {
         static void Main(string[] args)
         {
-            StudentRoster s = new StudentRoster();
-            foreach (KeyValuePair<int, Student> kvp in s.studentDictionary)
-            {
-                kvp.Value.Debug();
-            }
+            Student Anthony = new Student("Anthony", 28, "none", "Searles");
+            GuiPrinter s = new GuiPrinter();
+            ConsolePrinter x = new ConsolePrinter();
+
+            s.Print(Anthony);
+            x.Print(Anthony);
+
         }
     }
 }

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCSD_Canvas_Lib", "CCSD_Can
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP_App", "ASP_App\ASP_App.csproj", "{459363A1-CDB8-4E92-B95C-DA26BD72F513}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ccsdLib", "ccsdLib\ccsdLib.csproj", "{277352D8-9FCC-49ED-B551-6AF956ABBA26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{459363A1-CDB8-4E92-B95C-DA26BD72F513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{459363A1-CDB8-4E92-B95C-DA26BD72F513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{459363A1-CDB8-4E92-B95C-DA26BD72F513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{277352D8-9FCC-49ED-B551-6AF956ABBA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277352D8-9FCC-49ED-B551-6AF956ABBA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277352D8-9FCC-49ED-B551-6AF956ABBA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277352D8-9FCC-49ED-B551-6AF956ABBA26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

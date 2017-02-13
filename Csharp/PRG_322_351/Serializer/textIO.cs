@@ -10,12 +10,14 @@ namespace Serializer
     class textIO : Read_Write
     {
         string studentInfo;
-        public void writeInfo()
-        { 
+        public void writeInfo(Student s)
+        {
+            studentInfo = (s.FirstName + " " + s.LastName + " " + s.Age + " " + s.HairColor);
 
-        System.IO.StreamWriter tw = new System.IO.StreamWriter("C:\\Users\\CCSDUser\\Documents\\PracticeFileWriting\\Example.txt");
-        tw.WriteLine(studentInfo);
+            System.IO.StreamWriter tw = new System.IO.StreamWriter("C:\\Users\\CCSDUser\\Documents\\PracticeFileWriting\\Example.txt");
+            tw.WriteLine(studentInfo);
             tw.Close();
+            return;
 
         }
         public void readInfo()
@@ -29,10 +31,6 @@ namespace Serializer
             Console.ReadKey();
         }
 
-        public void writeStudentInfo(Student s)
-        {
-            studentInfo = (s.FirstName + " " + s.LastName + " " + s.Age + " " + s.HairColor);
-            return;
-        }
+       
     }
 }

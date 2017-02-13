@@ -47,7 +47,7 @@ namespace Serializer
                 string curField = reader.GetString(i);
             }
         }
-        public void writeInfo()
+        public void writeInfo(Student s)
         {
             
         }
